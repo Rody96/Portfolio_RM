@@ -710,6 +710,44 @@ textarea {
   }
 }
 
+/* ICONS COLOR*/
+
+i.fab.fa-js-square.contactIcon.animated.bounceInDown.skill_icon{
+  color: rgb(240, 219, 79);
+}
+
+i.fab.fa-html5.contactIcon.animated.bounceInDown.skill_icon{
+  color: #f06529;
+}
+
+i.fab.fa-css3-alt.contactIcon.animated.bounceInDown.skill_icon{
+  color: #2965f1;
+}
+
+i.fab.fa-node-js.contactIcon.animated.bounceInDown.skill_icon{
+  color: #3c873a;
+}
+
+i.fab.fa-react.contactIcon.animated.bounceInDown.skill_icon{
+  color: #61DBFB;
+}
+
+svg.redux.iconify.contactIcon.animated.bounceInDown.skill_icon{
+  color: #764abc
+}
+
+svg.mariadb.iconify.contactIcon.animated.bounceInDown.skill_icon{
+  color: #c89563
+}
+
+i.fab.fa-java.contactIcon.animated.bounceInDown.skill_icon{
+  color: red
+}
+
+svg.heroku.iconify.contactIcon.animated.bounceInDown.skill_icon{
+  color: #79589f
+}
+
 i.fas.fa-envelope{
-  color:white
+  color: white
 }
