@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Mugisha Rodrigue | Portfolio</title>
+  </head>
+
+  <body>
+    <!--*** NAVIGATION ***-->
+    <nav>
+      <div class="logo">
+        <h4><a href="#">Mugisha Rodrigue</a></h4>
+      </div>
+      <ul class="navLinks">
+        <li><a href="#">Home</a></li>
+        <li><a href="#myWork">Projets</a></li>
+        <li><a href="#aboutMe">A propos</a></li>
+        <li>
+          <a href="#" target="_blank">mon CV</a>
+        </li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+
+    <!--*** LANDING ***-->
+    <section id="landing">
+      <div class="landingOverlay">
+        <header>
+          <h1 id="title">Mugisha Rodrigue</h1>
+          <p id="subHeading">Développeur Full stack</p>
+          <div class="landingButtons">
+            <a href="#myWork" class="btn animated slideInLeft" id="projectBtn">
+              Projets
+            </a>
+            <a
+              href="./MUGISHA_Tuyishime_Rodrigue_CV.pdf"
+              target="_blank"
+              class="btn animated slideInRight"
+              id="resumeBtn"
+            >
+              Voir CV
+            </a>
+          </div>
+          <ul class="icons">
+            <li>
+              <a
+                class="contactIcon animated bounceInDown githubLink"
+                href="https://github.com/Rody96"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-github-alt" title="Github Logo"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                class="contactIcon animated bounceInDown linkedInLink"
+                href="https://www.linkedin.com/in/rodrigue-mugisha-tuyishime-652161154/"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-linkedin" title="LinkedIn Logo"></i>
+              </a>
+            </li>
+          </ul>
+
+        </header>
+      </div>
+    </section>
+
+    <!--*** MY WORK ***-->
+    <div id="pageContainer">
+      <section id="myWork">
+        <h2 class="sectionHeading">Projets</h2>
+        <div id="cardGrid">
+          <div class="cardContainer">
+            <div class="card">
+              <div class="projectImageWrapper">
+                <img
+                  class="screenshot"
+                  src="./images/kitchennew.png"
+                  alt="Projet 1"
+                />
+              </div>
+              <div class="cardBody">
+                <p class="cardTitle">Projet 1</p>
+                <div class="buttonWrapper">
+                  <button
+                    id="modalBtn1"
+                    target="_blank"
+                    rel="noopener"
+                    class="btn"
+                  >
+                    Voir
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- modal section for Project -->
+            <div id="simpleModal1" class="modal">
+              <div class="modal-content">
+                <div class="module-content">
+                  <div class="projectleft">
+                    <img src="./images/kitchennew.png" class="modal-img" />
+                  </div>
+                  <div class="projectRight">
+                    <span class="closeBtn">&times</span>
+                    <h2>Projet 1</h2>
+                    <ul class="project-technologies">
+                      <li class="project-technology">Javascript</li>
+                      <li class="project-technology">NodeJs</li>
+                      <li class="project-technology">Express</li>
+                    </ul>
+                    <label class="project-label">About</label>
+                    <div class="project-detail">
+                      <p class="Project_summary">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Excepturi neque, ipsa animi maiores repellendu 
+                        distinctioaperiam earum dolor voluptatum 
+                        consequatur blanditiis inventore debitis fuga 
+                        numquam voluptate architecto itaque molestiae.
+                      </p>
+                      <label>Difficulty</label>
+                      <p class="Project_summary">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Excepturi neque, ipsa animi maiores repellendu 
+                        distinctioaperiam earum dolor voluptatum 
+                        consequatur blanditiis inventore debitis fuga 
+                        numquam voluptate architecto itaque molestiae.
+                      </p>
+                    </div>
+                    <div class="btn-section">
+                      <a
+                        href="#"
+                        target="_blank"
+                        ><button class="demo-button">Code</button></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cardContainer">
+            <div class="card">
+              <div class="projectImageWrapper">
+                <img
+                  class="screenshot"
+                  src="./images/knitworthy.png"
+                  alt="Projet 2"
+                />
+              </div>
+              <div class="cardBody">
+                <p class="cardTitle">Projet 2</p>
+                <div class="buttonWrapper">
+                  <button
+                    id="modalBtn2"
+                    target="_blank"
+                    rel="noopener"
+                    class="btn"
+                  >
+                    Voir
+                  </button>
+                  <div id="simpleModal2" class="modal">
+                    <div class="modal-content">
+                      <div class="module-content">
+                        <div class="projectleft">
+                          <img
+                            src="./images/knitworthy.png"
+                            class="modal-img"
+                          />
+                        </div>
+                        <div class="projectRight">
+                          <span class="closeBtn">&times</span>
+                          <h2>Projet 2</h2>
+                          <ul class="project-technologies">
+                            <li class="project-technology">Javascript</li>
+                            <li class="project-technology">HTML</li>
+                            <li class="project-technology">CSS</li>
+                            <li class="project-technology">Bootstrap</li>
+                          </ul>
+                          <label class="project-label">About</label>
+                          <div class="project-detail">
+                            <p class="Project_summary">
+                              Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                              Excepturi neque, ipsa animi maiores repellendu 
+                              distinctioaperiam earum dolor voluptatum 
+                              consequatur blanditiis inventore debitis fuga 
+                              numquam voluptate architecto itaque molestiae.
+                            </p>
+                            <label>Difficulty</label>
+                            <p class="Project_summary">
+                              Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                              Excepturi neque, ipsa animi maiores repellendu 
+                              distinctioaperiam earum dolor voluptatum 
+                              consequatur blanditiis inventore debitis fuga 
+                              numquam voluptate architecto itaque molestiae.
+                            </p>
+                          </div>
+                          <div class="btn-section">
+                            <a
+                              href="#"
+                              target="_blank"
+                              ><button class="demo-button">Code</button></a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cardContainer">
+            <div class="card">
+              <div class="projectImageWrapper">
+                <img
+                  class="screenshot"
+                  src="./images/main.png"
+                  alt="Projet 3"
+                />
+              </div>
+              <div class="cardBody">
+                <p class="cardTitle">Projet 3</p>
+                <div class="buttonWrapper">
+                  <button
+                    id="modalBtn3"
+                    target="_blank"
+                    rel="noopener"
+                    class="btn"
+                  >
+                    Voir
+                  </button>
+                  <div id="simpleModal3" class="modal">
+                    <div class="modal-content">
+                      <div class="module-content">
+                        <div class="projectleft">
+                          <img
+                            src="./images/main.png"
+                            class="modal-img"
+                            style="object-fit: fill"
+                          />
+                        </div>
+                        <div class="projectRight">
+                          <span class="closeBtn">&times</span>
+                          <h2>Projet 3</h2>
+                          <ul class="project-technologies">
+                            <li class="project-technology">Javascript</li>
+                            <li class="project-technology">NodeJs</li>
+                            <li class="project-technology">Express</li>
+                            <li class="project-technology">React</li>
+                            <li class="project-technology">Redux</li>
+                          </ul>
+                          <label class="project-label">About</label>
+                          <div class="project-detail">
+                            <p class="Project_summary">
+                              Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                              Excepturi neque, ipsa animi maiores repellendu 
+                              distinctioaperiam earum dolor voluptatum 
+                              consequatur blanditiis inventore debitis fuga 
+                              numquam voluptate architecto itaque molestiae.
+                            </p>
+                            <label>Difficulty</label>
+                            <p class="Project_summary">
+                              Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                              Excepturi neque, ipsa animi maiores repellendu 
+                              distinctioaperiam earum dolor voluptatum 
+                              consequatur blanditiis inventore debitis fuga 
+                              numquam voluptate architecto itaque molestiae.
+                            </p>
+                          </div>
+                          <div class="btn-section">
+                            <a
+                              href="#"
+                              target="_blank"
+                              ><button class="demo-button">Code</button></a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="proof">
+        <h2 class="sectionHeading">Activités</h2>
+      </section>
+
+      <!--*** ABOUT ME ***-->
+      <section id="aboutMe">
+        <h2 class="sectionHeading">Projet professionel</h2>
+        <p class="sectionInfo">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Excepturi neque, ipsa animi maiores repellendu 
+          distinctioaperiam earum dolor voluptatum 
+          consequatur blanditiis inventore debitis fuga 
+          numquam voluptate architecto itaque molestiae.
+        </p>
+        <h2 class="sectionHeading">Compétences</h2>
+        <div>
+          <ul class="icons skill_ul">
+            <li class="skill_item">
+              <i
+                class="fab fa-js-square contactIcon animated bounceInDown skill_icon"
+              ></i>
+              <label class="skill-name">Javascript</label>
+            </li>
+            <li class="skill_item">
+              <i
+                class="fab fa-html5 contactIcon animated bounceInDown skill_icon"
+              ></i>
+              <label class="skill-name">HTML</label>
+            </li>
+            <li class="skill_item">
+              <i
+                class="fab fa-css3-alt contactIcon animated bounceInDown skill_icon"
+              ></i>
+              <label class="skill-name">CSS</label>
+            </li>
+            <li class="skill_item">
+              <i
+                class="fab fa-node-js contactIcon animated bounceInDown skill_icon"
+              ></i>
+              <label class="skill-name">Node.js</label>
+            </li>
+            <li class="skill_item">
+              <i
+                class="fab fa-react contactIcon animated bounceInDown skill_icon"
+              ></i>
+              <label class="skill-name">React/React Native</label>
+            </li>
+            <li class="skill_item">
+              <span
+                class="iconify contactIcon animated bounceInDown skill_icon"
+                data-icon="simple-icons:redux"
+                data-inline="false"
+              ></span>
+              <label class="skill-name">Redux</label>
+            </li>
+            <li class="skill_item">
+              <span
+                class="iconify contactIcon animated bounceInDown skill_icon"
+                data-icon="simple-icons:mariadb"
+                data-inline="false"
+              ></span>
+              <label class="skill-name">MariaDB</label>
+            </li>
+            <li class="skill_item">
+              <i class="fab fa-java contactIcon animated bounceInDown skill_icon"></i>
+              <label class="skill-name">Java</label>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--*** CONTACT ***-->
+      <section id="contact">
+        <h2 class="sectionHeading">Contact</h2>
+        <p class="sectionInfo">
+          <!--TEXTE CONTACT-->
+        </p>
+
+        <div class="contact">
+          <ul class="icons">
+            <li>
+              <a
+                class="contactIcon animated bounceInDown githubLink"
+                href="https://github.com/hptran7"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-github-alt" title="Github Logo"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                class= "contactIcon animated bounceInDown Email"
+                href="mailto:rod43@live.fr"
+                class="emailLink"
+                target="_blank"
+                color="white"
+              >
+              <i class="fas fa-envelope"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                class="contactIcon animated bounceInDown linkedInLink"
+                href="https://github.com/Rody96"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-linkedin" title="LinkedIn Logo"></i>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </section>
+    </div>
+
+    <!--*** SCRIPTS ***-->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
