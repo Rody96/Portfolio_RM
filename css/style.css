@@ -167,7 +167,7 @@ nav {
 /*** LANDING ***/
 #landing {
   height: 99vh;
-  background: url("../images/background.jpg") no-repeat center center/cover;
+  background: url("../img/background.jpg") no-repeat center center/cover;
   display: flex;
   justify-content: center;
   align-items: center;
