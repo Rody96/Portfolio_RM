@@ -744,10 +744,54 @@ i.fab.fa-java.contactIcon.animated.bounceInDown.skill_icon{
   color: red
 }
 
-svg.heroku.iconify.contactIcon.animated.bounceInDown.skill_icon{
-  color: #79589f
-}
 
 i.fas.fa-envelope{
   color: white
+}
+
+
+th{
+  font-size: '25px';
+  text-align: center;
+  padding: 40px;
+}
+
+td{
+  font-size: '15px';
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+table a{
+  color:white;
+}
+
+table a:hover{
+  color:blue;
+}
+
+/*PAGE PHOTOS*/
+#photosBody {
+  margin: 0;
+  padding: 0;
+}
+
+.carouselExemple {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.carouselExemple2 {
+  width: 50%;
+  margin: 300px 300px;
+  margin-top: 120px;
+}
+
+.carousel-item img {
+  width: 100%;
 }
