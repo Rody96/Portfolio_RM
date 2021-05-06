@@ -453,6 +453,10 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
   font-size: 1.3em;
   text-align: justify;
 }
+.me{
+  font-size: 1.15em;
+  text-align: justify;
+}
 @media (max-width: 767.98px) {
   .reference {
     max-width: 350px;
