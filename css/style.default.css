@@ -449,7 +449,10 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
   margin-bottom: 30px;
   overflow: hidden;
 }
-
+.analyse{
+  font-size: 1.3em;
+  text-align: justify;
+}
 @media (max-width: 767.98px) {
   .reference {
     max-width: 350px;
