@@ -548,6 +548,7 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
   opacity: 0.3;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  color:red;
 }
 
 #detail .close:hover {
